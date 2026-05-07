@@ -96,6 +96,10 @@ class MeraList:
     def remove(self, value):
         pos = self.find(value=value)
         self.__delitem__(pos)
+
+# home work is the 
+# sort / min / max / sum / extend / negative indexing
+# slicing / merge
     
 if __name__ == "__main__":
     L = MeraList()
